@@ -1,0 +1,55 @@
+name: fleet_management_app
+description: "FleetPro — AI-powered fleet management for drivers, managers & admins"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+
+  # Firebase
+  firebase_core: ^4.10.0
+  firebase_auth: ^6.5.2
+  cloud_firestore: ^6.5.0
+  firebase_database: ^12.4.2
+  firebase_messaging: ^16.3.0
+
+  # Maps & Location
+  google_maps_flutter: ^2.13.0
+  geolocator: ^14.0.3
+
+  # State management
+  provider: ^6.1.5
+
+  # Charts for analytics
+  fl_chart: ^1.2.0
+
+  # Camera (for drowsiness screen)
+  camera: ^0.12.0+1
+  image: ^4.9.1
+
+  # Offline mode
+  shared_preferences: ^2.3.5
+
+  # HTTP for route optimisation (Google Directions API)
+  http: ^1.3.0
+
+  # Optional: sensors for activity-based drowsiness
+  sensors_plus: ^7.0.0
+  connectivity_plus: ^7.1.1
+  flutter_background: ^1.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
